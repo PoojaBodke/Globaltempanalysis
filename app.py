@@ -423,7 +423,7 @@ if uploaded_file is not None:
             show_trend(climate_data)
         elif view_option == "Temperature Prediction":
             predict_temperature(climate_data)
-        elif view_option == "Country/City/State/Region Analysis":
+        elif view_option == "City/State/Region Analysis":
             location_based_analysis(climate_data)
 
 
